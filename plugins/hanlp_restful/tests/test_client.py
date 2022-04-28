@@ -6,7 +6,7 @@ from hanlp_restful import HanLPClient
 class TestClient(unittest.TestCase):
 
     def setUp(self) -> None:
-        self.HanLP = HanLPClient('https://hanlp.hankcs.com/api', auth=None)  # Fill in your auth
+        self.HanLP = HanLPClient('https://hanlp.hankcs.com/api', auth='MTAyOEBiYnMuaGFubHAuY29tOlowTkxOOXgybENTdWo5bEc=')  # Fill in your auth
 
     def test_raw_text(self):
         text = '2021年HanLPv2.1为生产环境带来次世代最先进的多语种NLP技术。阿婆主来到北京立方庭参观自然语义科技公司。'
